@@ -37,6 +37,7 @@ class BotHandler {
 			if($bot->isAlive()){
 				$bot->update();
                 $bot->terminate();
+
 			} else {
 				$this->removeBot($bot, $botNumber);
 			}
