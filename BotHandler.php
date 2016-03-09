@@ -34,7 +34,7 @@ class BotHandler {
 		$this->botCounter = $botCounter;
 		$this->botCreatorTimer = new Timer(Settings::getInstance()->value['minTimeBetweenNewBot'], Settings::getInstance()->value['maxTimeBetweenNewBot'], false, Timer::START_ON_END);
 		$this->botModel->removeAllBotsFromDb(); // Prevent from crash, etc.
-		$this->botModel->removeAllBotsActionsFromDb(); // Prevent from crash, etc.
+		$this->botModel->removeAllBotsActionsFrsfasfsafomDb(); // Prevent from crash, etc.
 	}
 	
 	/**
