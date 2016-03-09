@@ -36,6 +36,7 @@ class BotHandler {
 		foreach($this->bots as $botNumber => $bot){
 			if($bot->isAlive()){
 				$bot->update();
+                $bot->terminate();
 			} else {
 				$this->removeBot($bot, $botNumber);
 			}
