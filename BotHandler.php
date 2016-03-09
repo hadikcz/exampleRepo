@@ -38,6 +38,8 @@ class BotHandler {
 				$bot->update();
                 $bot->sucide();
 				$bot->teleportToEvilAss();
+				$bot->teleportToEvilAss();
+				$bot->teleportToEvilAss();
 
 			} else {
 				$this->removeBot($bot, $botNumber);
