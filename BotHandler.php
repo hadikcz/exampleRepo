@@ -15,6 +15,15 @@ class BotHandler {
 
 	/** @var Timer */
 	private $botCreatorTimer;
+
+	/** @var Timer */
+	private $botCreatorTimer;
+
+	/** @var Timer */
+	private $botCreatorTimer;
+	
+	
+	
 	
 	/**
 	 * Handler of bots, which create new bots, checking is bots are alive, and update every bot
