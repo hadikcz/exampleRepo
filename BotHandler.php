@@ -32,8 +32,7 @@ class BotHandler {
 	 * Update metod, which is call every run of cycle
 	 */
 	public function update(){
-		$this->botCreator();	
-		shuffle($this->bots);
+		$this->botCreator();
 		foreach($this->bots as $botNumber => $bot){
 			if($bot->isAlive()){
 				$bot->update();
